@@ -14,12 +14,12 @@ import javax.ws.rs.core.MediaType;
 @Path("cadastroDePerfil")
 public class CadastroDePerfilController {
 
-    @Inject
-    Sessao sessao;
+    //@Inject
+    //Sessao sessao;
 
     private final Template cadastroDePerfil;
 
-    public void cadastroDePerfilController(Template cadastroDePerfil) {
+    public CadastroDePerfilController(Template cadastroDePerfil) {
         this.cadastroDePerfil = cadastroDePerfil;
     }
 

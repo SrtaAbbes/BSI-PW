@@ -2,7 +2,6 @@ package controller;
 
 import io.quarkus.qute.Template;
 import io.quarkus.qute.TemplateInstance;
-import io.vertx.ext.web.Session;
 import model.util.Sessao;
 
 import javax.inject.Inject;
@@ -11,29 +10,29 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-@Path("logs")
-public class logsController {
+@Path("assinarPremium")
+public class AssinarPremiumController {
 
-    /*@Inject
-    Sessao sessao;*/
+    //@Inject
+    //Sessao sessao;
 
-    private final Template logs;
+    private final Template assinarPremium;
 
-    public logsController(Template logs) {
-        this.logs = logs;
+    public AssinarPremiumController(Template assinarPremium) {
+        this.assinarPremium = assinarPremium;
     }
 
     @GET
     @Produces(MediaType.TEXT_HTML)
-    public TemplateInstance logs(){
+    public TemplateInstance assinarPremium(){
         /*if (sessao.getUsuario().isEmpty()){
             return ErroTemplates.proibido();
         } else if(Possui a permissão){
-            return logs.instance();
+            return assinarPremium.instance();
         } else{
             return ErroTemplates.proibido();
         }*/
-        return logs.instance();
+        return assinarPremium.instance();
     }
 
 }

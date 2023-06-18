@@ -13,8 +13,8 @@ import javax.ws.rs.core.MediaType;
 @Path("partida")
 public class PartidaController {
 
-    @Inject
-    Sessao sessao;
+    //@Inject
+    //Sessao sessao;
 
     private final Template partida;
 

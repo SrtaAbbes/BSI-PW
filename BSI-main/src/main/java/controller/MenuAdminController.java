@@ -14,8 +14,8 @@ import javax.ws.rs.core.MediaType;
 @Path("menuAdmin")
 public class MenuAdminController {
 
-    @Inject
-    Sessao sessao;
+    //@Inject
+    //Sessao sessao;
 
     private final Template menuAdmin;
 

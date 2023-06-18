@@ -1,4 +1,5 @@
 package model.util;
+
 import javax.enterprise.context.SessionScoped;
 import java.util.ArrayList;
 import java.util.List;

@@ -1,39 +1,34 @@
 package controller;
-
 import io.quarkus.qute.Template;
 import io.quarkus.qute.TemplateInstance;
-import io.vertx.ext.web.Session;
-import model.util.Sessao;
 
-import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-@Path("logs")
-public class logsController {
+@Path("historicoDePartidas")
+public class HistoricoDePartidasController {
 
-    /*@Inject
-    Sessao sessao;*/
+    //@Inject
+    //Sessao sessao;
 
-    private final Template logs;
+    private final Template historicoDePartidas;
 
-    public logsController(Template logs) {
-        this.logs = logs;
+    public HistoricoDePartidasController(Template historicoDePartidas) {
+        this.historicoDePartidas = historicoDePartidas;
     }
 
     @GET
     @Produces(MediaType.TEXT_HTML)
-    public TemplateInstance logs(){
+    public TemplateInstance historicoDePartidas(){
         /*if (sessao.getUsuario().isEmpty()){
             return ErroTemplates.proibido();
         } else if(Possui a permissão){
-            return logs.instance();
+            return historicoDePartidas.instance();
         } else{
             return ErroTemplates.proibido();
         }*/
-        return logs.instance();
+        return historicoDePartidas.instance();
     }
-
 }
