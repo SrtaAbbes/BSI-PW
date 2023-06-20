@@ -27,11 +27,11 @@ public class CadastroDePerfilController {
     @Produces(MediaType.TEXT_HTML)
     public TemplateInstance cadastroDePerfil(){
         /*if (sessao.getUsuario().isEmpty()){
-            return ErroTemplates.proibido();
+            return ErroTemplates.accessoNegado();
         } else if(Possui a permissão){
             return cadastroDePerfil.instance();
         } else{
-            return ErroTemplates.proibido();
+            return ErroTemplates.accessoNegado();
         }*/
         return cadastroDePerfil.instance();
     }

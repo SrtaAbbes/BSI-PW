@@ -23,11 +23,11 @@ public class ListaDeTimesController {
     @Produces(MediaType.TEXT_HTML)
     public TemplateInstance listaDeTimes(){
         /*if (sessao.getUsuario().isEmpty()){
-            return ErroTemplates.proibido();
+            return ErroTemplates.accessoNegado();
         } else if(Possui a permissão){
             return listaDeTimes.instance();
         } else{
-            return ErroTemplates.proibido();
+            return ErroTemplates.accessoNegado();
         }*/
         return listaDeTimes.instance();
     }

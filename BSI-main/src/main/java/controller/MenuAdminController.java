@@ -27,11 +27,11 @@ public class MenuAdminController {
     @Produces(MediaType.TEXT_HTML)
     public TemplateInstance menuAdmin(){
         /*if (sessao.getUsuario().isEmpty()){
-            return ErroTemplates.proibido();
+            return ErroTemplates.accessoNegado();
         } else if(Possui a permissão){
             return menuAdmin.instance();
         } else{
-            return ErroTemplates.proibido();
+            return ErroTemplates.accessoNegado();
         }*/
         return menuAdmin.instance();
     }

@@ -26,11 +26,11 @@ public class AssinarPremiumController {
     @Produces(MediaType.TEXT_HTML)
     public TemplateInstance assinarPremium(){
         /*if (sessao.getUsuario().isEmpty()){
-            return ErroTemplates.proibido();
+            return ErroTemplates.accessoNegado();
         } else if(Possui a permissão){
             return assinarPremium.instance();
         } else{
-            return ErroTemplates.proibido();
+            return ErroTemplates.accessoNegado();
         }*/
         return assinarPremium.instance();
     }

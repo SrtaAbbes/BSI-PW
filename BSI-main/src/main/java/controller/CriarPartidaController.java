@@ -23,11 +23,11 @@ public class CriarPartidaController {
     @Produces(MediaType.TEXT_HTML)
     public TemplateInstance criarPartida(){
         /*if (sessao.getUsuario().isEmpty()){
-            return ErroTemplates.proibido();
+            return ErroTemplates.accessoNegado();
         } else if(Possui a permissão){
             return criarPartida.instance();
         } else{
-            return ErroTemplates.proibido();
+            return ErroTemplates.accessoNegado();
         }*/
         return criarPartida.instance();
     }

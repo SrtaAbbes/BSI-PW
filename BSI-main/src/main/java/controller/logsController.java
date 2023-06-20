@@ -27,11 +27,11 @@ public class logsController {
     @Produces(MediaType.TEXT_HTML)
     public TemplateInstance logs(){
         /*if (sessao.getUsuario().isEmpty()){
-            return ErroTemplates.proibido();
+            return ErroTemplates.accessoNegado();
         } else if(Possui a permissão){
             return logs.instance();
         } else{
-            return ErroTemplates.proibido();
+            return ErroTemplates.accessoNegado();
         }*/
         return logs.instance();
     }

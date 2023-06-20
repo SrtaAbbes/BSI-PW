@@ -41,6 +41,10 @@ function retomar(){
     intervalo= setInterval(cronometro,1000)
     buttonRetomar.style.display = "none";
     buttonPausar.style.display = "inline-block";
+    buttonAdd2PontosTime1.disabled = false;
+    buttonAdd3PontosTime1.disabled = false;
+    buttonAdd2PontosTime2.disabled = false;
+    buttonAdd3PontosTime2.disabled = false;
 }
 
 function pausar(){
@@ -51,7 +55,14 @@ function pausar(){
 
 function finalizar(){
     clearInterval(intervalo)
+    buttonAdd2PontosTime1.disabled = true;
+    buttonAdd3PontosTime1.disabled = true;
+    buttonAdd2PontosTime2.disabled = true;
+    buttonAdd3PontosTime2.disabled = true;
+    buttonPausar.style.display = "none";
+    buttonRetomar.style.display = "inline-block";
 }
+
 
 function cronometro(){
     seg++
