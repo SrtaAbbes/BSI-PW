@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Placar.iml" filepath="$PROJECT_DIR$/.idea/Placar.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BSI-main/placar-basquete.iml" filepath="$PROJECT_DIR$/BSI-main/placar-basquete.iml" />
     </modules>
   </component>
 </project>

@@ -7,28 +7,28 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-@Path("listaDeTimes")
-public class ListaDeTimesController {
+@Path("times")
+public class TimesController {
 
     //@Inject
     //Sessao sessao;
 
-    private final Template listaDeTimes;
+    private final Template times;
 
-    public ListaDeTimesController(Template listaDeTimes) {
-        this.listaDeTimes = listaDeTimes;
+    public TimesController(Template times) {
+        this.times = times;
     }
 
     @GET
     @Produces(MediaType.TEXT_HTML)
-    public TemplateInstance listaDeTimes(){
+    public TemplateInstance times(){
         /*if (sessao.getUsuario().isEmpty()){
             return ErroTemplates.accessoNegado();
         } else if(Possui a permissão){
-            return listaDeTimes.instance();
+            return times.instance();
         } else{
             return ErroTemplates.accessoNegado();
         }*/
-        return listaDeTimes.instance();
+        return times.instance();
     }
 }
