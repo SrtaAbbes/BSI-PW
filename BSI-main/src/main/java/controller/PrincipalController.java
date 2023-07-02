@@ -1,7 +1,7 @@
-package br.edu.ifg.luziania.controller;
+package controller;
 
-import br.edu.ifg.luziania.model.util.ErroTemplates;
-import br.edu.ifg.luziania.model.util.Sessao;
+import model.util.ErroTemplates;
+import model.util.Sessao;
 import io.quarkus.qute.Template;
 import io.quarkus.qute.TemplateInstance;
 

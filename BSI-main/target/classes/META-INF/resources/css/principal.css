@@ -1,0 +1,19 @@
+.header {
+    background-color: #fd7e14;
+    font-size: large;
+}
+/*.body{*/
+/*    background-image: url("/images/wallpaper.jpg");*/
+/*}*/
+
+.textInitialPage {
+    display: inline-flex;
+    /*grid-template-columns: 2fr 1fr;*/
+    /*grid-template-rows: 3fr;*/
+    /*column-gap: 90px;*/
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #000;
+}
+
