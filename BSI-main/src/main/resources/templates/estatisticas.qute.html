@@ -17,9 +17,11 @@
             integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="/css/login.css">
+
+    {!<script src="/js/login.js" type="application/javascript"></script>!}
 </head>
 <body>
-    <header id="header" class="header d-flex align-items-center fixed-top">
+<header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
         <div class="logo">
             <a class="navbar-brand" href="/home"><img src="/images/Logo.png" class="img-fluid"></a>
@@ -58,29 +60,84 @@
     </div>
 </header>
 
-    <!-- Modal -->
-    <div class="modal fade" id="confirmar-logout" tabindex="-1" aria-labelledby="confirmarLogout" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Logout</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Tem certeza que deseja sair?</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Não</button>
-                    <a href="/" class="btn btn-primary">Sim</a>
-                </div>
+<!-- Modal -->
+<div class="modal fade" id="confirmar-logout" tabindex="-1" aria-labelledby="confirmarLogout" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Logout</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Tem certeza que deseja sair?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Não</button>
+                <a href="/" class="btn btn-primary">Sim</a>
             </div>
         </div>
     </div>
+</div>
 
 
-    <section style="padding-top: 120px;">
+<section style="padding-top: 120px;">
 
+    <div id="estatisticas" class="col-md-8 mx-auto text-center" style="padding-top: 100px">
 
-    </section>
+        <h1 class="mb-3 fw-semibold lh-1">Estatísticas</h1>
+        <br><br>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card text-bg-dark mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Partidas jogadas</h5>
+                        <h1 id="partidas-jogadas">10</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-dark mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Vitórias</h5>
+                        <h1 id="vitorias">10</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-dark mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Derrotas</h5>
+                        <h1 id="derrotas">10</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-dark mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Total de cestas</h5>
+                        <h1 id="total-cestas">10</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-dark mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Cestas de 2 pontos</h5>
+                        <h1 id="cestas-2-pontos">10</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-dark mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Cestas de 3 pontos</h5>
+                        <h1 id="cestas-3-pontos">10</h1>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+</section>
+
 </body>
 </html>

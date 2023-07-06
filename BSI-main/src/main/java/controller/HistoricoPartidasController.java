@@ -2,10 +2,7 @@ package controller;
 
 import io.quarkus.qute.Template;
 import io.quarkus.qute.TemplateInstance;
-import io.vertx.ext.web.Session;
-import model.util.Sessao;
 
-import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;

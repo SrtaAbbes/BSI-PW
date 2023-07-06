@@ -3,10 +3,12 @@
 /home/srtaabbes/ESTUDOS/Faculdade/BSI (2018-hoje)/BSI_IFG(verificar o drive)/11.Semestre_20232/Progamação pra web/ProjetoFinal2/BSI-main/src/main/java/controller/LoginController.java
 /home/srtaabbes/ESTUDOS/Faculdade/BSI (2018-hoje)/BSI_IFG(verificar o drive)/11.Semestre_20232/Progamação pra web/ProjetoFinal2/BSI-main/src/main/java/model/entity/ConfiguracaoDaPartida.java
 /home/srtaabbes/ESTUDOS/Faculdade/BSI (2018-hoje)/BSI_IFG(verificar o drive)/11.Semestre_20232/Progamação pra web/ProjetoFinal2/BSI-main/src/main/java/model/entity/Log.java
-/home/srtaabbes/ESTUDOS/Faculdade/BSI (2018-hoje)/BSI_IFG(verificar o drive)/11.Semestre_20232/Progamação pra web/ProjetoFinal2/BSI-main/src/main/java/controller/MenuAdminController.java
+/home/srtaabbes/ESTUDOS/Faculdade/BSI (2018-hoje)/BSI_IFG(verificar o drive)/11.Semestre_20232/Progamação pra web/ProjetoFinal2/BSI-main/src/main/java/controller/PerfisController.java
+/home/srtaabbes/ESTUDOS/Faculdade/BSI (2018-hoje)/BSI_IFG(verificar o drive)/11.Semestre_20232/Progamação pra web/ProjetoFinal2/BSI-main/src/main/java/controller/HistoricoPartidasController.java
 /home/srtaabbes/ESTUDOS/Faculdade/BSI (2018-hoje)/BSI_IFG(verificar o drive)/11.Semestre_20232/Progamação pra web/ProjetoFinal2/BSI-main/src/main/java/model/entity/Time.java
 /home/srtaabbes/ESTUDOS/Faculdade/BSI (2018-hoje)/BSI_IFG(verificar o drive)/11.Semestre_20232/Progamação pra web/ProjetoFinal2/BSI-main/src/main/java/model/util/ErroTemplates.java
 /home/srtaabbes/ESTUDOS/Faculdade/BSI (2018-hoje)/BSI_IFG(verificar o drive)/11.Semestre_20232/Progamação pra web/ProjetoFinal2/BSI-main/src/main/java/model/util/Sessao.java
+/home/srtaabbes/ESTUDOS/Faculdade/BSI (2018-hoje)/BSI_IFG(verificar o drive)/11.Semestre_20232/Progamação pra web/ProjetoFinal2/BSI-main/src/main/java/controller/LogsController.java
 /home/srtaabbes/ESTUDOS/Faculdade/BSI (2018-hoje)/BSI_IFG(verificar o drive)/11.Semestre_20232/Progamação pra web/ProjetoFinal2/BSI-main/src/main/java/model/entity/Usuario.java
 /home/srtaabbes/ESTUDOS/Faculdade/BSI (2018-hoje)/BSI_IFG(verificar o drive)/11.Semestre_20232/Progamação pra web/ProjetoFinal2/BSI-main/src/main/java/model/entity/Partida.java
 /home/srtaabbes/ESTUDOS/Faculdade/BSI (2018-hoje)/BSI_IFG(verificar o drive)/11.Semestre_20232/Progamação pra web/ProjetoFinal2/BSI-main/src/main/java/controller/AcessoNegadoController.java
