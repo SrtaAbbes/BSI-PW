@@ -1,4 +1,5 @@
 package controller;
+
 import io.quarkus.qute.Template;
 import io.quarkus.qute.TemplateInstance;
 
@@ -7,28 +8,29 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-@Path("usuarios")
-public class UsuariosController {
+@Path("logs")
+public class LogsController {
 
     //@Inject
     //Sessao sessao;
 
-    private final Template usuarios;
+    private final Template logs;
 
-    public UsuariosController(Template usuarios) {
-        this.usuarios = usuarios;
+    public LogsController(Template logs) {
+        this.logs = logs;
     }
 
     @GET
     @Produces(MediaType.TEXT_HTML)
-    public TemplateInstance usuarios(){
+    public TemplateInstance logs(){
         /*if (sessao.getUsuario().isEmpty()){
             return ErroTemplates.accessoNegado();
         } else if(Possui a permissão){
-            return usuarios.instance();
+            return logs.instance();
         } else{
             return ErroTemplates.accessoNegado();
         }*/
-        return usuarios.instance();
+        return logs.instance();
     }
+
 }

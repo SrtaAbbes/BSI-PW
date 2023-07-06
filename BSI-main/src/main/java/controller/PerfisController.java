@@ -1,4 +1,5 @@
 package controller;
+
 import io.quarkus.qute.Template;
 import io.quarkus.qute.TemplateInstance;
 
@@ -7,28 +8,29 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-@Path("times")
-public class TimesController {
+@Path("perfis")
+public class PerfisController {
 
     //@Inject
     //Sessao sessao;
 
-    private final Template times;
+    private final Template perfis;
 
-    public TimesController(Template times) {
-        this.times = times;
+    public PerfisController(Template perfis) {
+        this.perfis = perfis;
     }
 
     @GET
     @Produces(MediaType.TEXT_HTML)
-    public TemplateInstance times(){
+    public TemplateInstance perfis(){
         /*if (sessao.getUsuario().isEmpty()){
             return ErroTemplates.accessoNegado();
         } else if(Possui a permissão){
-            return times.instance();
+            return perfis.instance();
         } else{
             return ErroTemplates.accessoNegado();
         }*/
-        return times.instance();
+        return perfis.instance();
     }
+
 }

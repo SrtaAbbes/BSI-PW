@@ -14,6 +14,9 @@ let buttonAdd3PontosTime1 = document.getElementById("add-3-pontos-time-1")
 let buttonAdd2PontosTime2 = document.getElementById("add-2-pontos-time-2")
 let buttonAdd3PontosTime2 = document.getElementById("add-3-pontos-time-2")
 let buttonRetomar = document.getElementById("retomar-cronometro")
+var criarPartida  = document.getElementById("criar-partida")
+var placarPartida = document.getElementById("placar-partida")
+var resultado  = document.getElementById("resultado-partida")
 
 function doisDigitos(digito){
     if(digito<10){

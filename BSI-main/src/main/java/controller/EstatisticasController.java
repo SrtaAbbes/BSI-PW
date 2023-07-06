@@ -6,34 +6,33 @@ import io.vertx.ext.web.Session;
 import model.util.Sessao;
 
 import javax.inject.Inject;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
+import javax.ws.rs.*;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-@Path("menuAdmin")
-public class MenuAdminController {
+@Path("estatisticas")
+public class EstatisticasController {
 
     //@Inject
     //Sessao sessao;
 
-    private final Template menuAdmin;
+    private final Template estatisticas;
 
-    public MenuAdminController(Template menuAdmin) {
-        this.menuAdmin = menuAdmin;
+    public EstatisticasController(Template estatisticas) {
+        this.estatisticas = estatisticas;
     }
 
     @GET
     @Produces(MediaType.TEXT_HTML)
-    public TemplateInstance menuAdmin(){
+    public TemplateInstance estatisticas(){
         /*if (sessao.getUsuario().isEmpty()){
             return ErroTemplates.accessoNegado();
         } else if(Possui a permissão){
-            return menuAdmin.instance();
+            return estatisticas.instance();
         } else{
             return ErroTemplates.accessoNegado();
         }*/
-        return menuAdmin.instance();
+        return estatisticas.instance();
     }
 
 }

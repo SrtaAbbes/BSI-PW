@@ -20,43 +20,43 @@
 </head>
 <body>
     <header id="header" class="header d-flex align-items-center fixed-top">
-        <div class="container d-flex align-items-center justify-content-between">
-            <div class="logo">
-                <a class="navbar-brand" href="/home"><img src="/images/Logo.png" class="img-fluid"></a>
-            </div>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li id="estatisticas-nav" class="nav-item">
-                                <a class="nav-link active" href="/estatisticas">Estatísticas</a>
-                            </li>
-                            <li id="partida-nav" class="nav-item dropdown">
-                                <a id="partida-nav" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Partida</a>
-                                <ul class="dropdown-menu">
-                                    <li><a id="criar-partida-nav" class="dropdown-item" href="/partida">Criar partida</a></li>
-                                    <li><a id="historico-partida-nav" class="dropdown-item" href="/partida">Histórico</a></li>
-                                </ul>
-                            </li>
-                            <!-- <li id="assinar-premium-nav" class="nav-item">
-                                <a class="nav-link active" href="#">Assinar Premium</a>
-                            </li> -->
-                            <li id="admin-nav" class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Administração</a>
-                                <ul class="dropdown-menu">
-                                    <li><a id="logs-nav" class="dropdown-item" href="/partida">Logs</a></li>
-                                    <li><a id="perfis-nav" class="dropdown-item" href="/partida">Perfis</a></li>
-                                </ul>
-                            </li>
-                            <li id="logout-nav" class="nav-item">
-                                <a data-bs-toggle="modal" href="#confirmar-logout" class="scrollto nav-link active"><img src="/images/logout.png" class="img-fluid" width="25" height="25"></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+    <div class="container d-flex align-items-center justify-content-between">
+        <div class="logo">
+            <a class="navbar-brand" href="/home"><img src="/images/Logo.png" class="img-fluid"></a>
         </div>
-    </header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li id="estatisticas-nav" class="nav-item">
+                            <a class="nav-link active" href="/estatisticas">Estatísticas</a>
+                        </li>
+                        <li id="partida-nav" class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Partida</a>
+                            <ul class="dropdown-menu">
+                                <li><a id="criar-partida-nav" class="dropdown-item" href="/partida">Criar partida</a></li>
+                                <li><a id="historico-partida-nav" class="dropdown-item" href="/historicoPartidas">Histórico</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li id="assinar-premium-nav" class="nav-item">
+                            <a class="nav-link active" href="#">Assinar Premium</a>
+                        </li> -->
+                        <li id="admin-nav" class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Administração</a>
+                            <ul class="dropdown-menu">
+                                <li><a id="logs-nav" class="dropdown-item" href="/logs">Logs</a></li>
+                                <li><a id="perfis-nav" class="dropdown-item" href="/perfis">Perfis</a></li>
+                            </ul>
+                        </li>
+                        <li id="logout-nav" class="nav-item">
+                            <a data-bs-toggle="modal" href="#confirmar-logout" class="scrollto nav-link active"><img src="/images/logout.png" class="img-fluid" width="25" height="25"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
 
     <!-- Modal -->
     <div class="modal fade" id="confirmar-logout" tabindex="-1" aria-labelledby="confirmarLogout" aria-hidden="true">
@@ -79,25 +79,6 @@
 
 
     <section style="padding-top: 120px;">
-
-        <div id="logs">
-            <table class="table">
-                <thead class="table-dark">
-                <tr>
-                    <th scope="col">Data</th>
-                    <th scope="col">Operação</th>
-                    <th scope="col">Usuário</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>18/06/2023 - 15:30</td>
-                    <td>Criar partida</td>
-                    <td>Gabriel </td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
 
         <div id="perfis">
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
